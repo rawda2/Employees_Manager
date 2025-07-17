@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Container {
+    background-color: aliceblue;
+    margin: 80px auto;
+    padding: 0;
+    border-radius: 7px;
+}
+
+@media (max-width: 780px) {
+    .Container {
+        margin: 0 auto;
+    }
+}

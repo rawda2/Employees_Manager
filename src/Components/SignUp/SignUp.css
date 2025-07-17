@@ -1,0 +1,11 @@
+body{
+    overflow-y: auto;
+}
+.signup{
+    position: relative;
+    border: none !important;
+    
+}
+.card-body img{
+    width: 500px;
+}

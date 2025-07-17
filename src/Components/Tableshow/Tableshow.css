@@ -1,0 +1,33 @@
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    min-width: 600px;
+    /* علشان الموبايل يظهر Scroll بس مش يكسر التنسيق */
+}
+
+@media (max-width: 768px) {
+
+    .table td,
+    .table th {
+        font-size: 12px;
+        padding: 6px;
+        white-space: nowrap;
+    }
+
+    .table td:nth-child(4) {
+        max-width: 120px;
+        white-space: normal !important;
+        word-break: break-word;
+    }
+}
+
+.email-cell {
+    max-width: 140px;
+    word-break: break-word;
+    white-space: normal;
+    font-size: 13px;
+}
